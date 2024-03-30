@@ -4,227 +4,225 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <img src="./img/img_1.png" alt="antools logo">
-        <h5>antools.</h5>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Categories</a></li>
-                <li><a href="#">My Collections</a></li>
-                <li><a href="#">Blog</a></li>
+    <header class="header">
+        <a href=""><img class="company-logo-img" src="./img/img_1.png" alt="antools logo"><h5 class="company-logo">antools.</h5></a>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-list-item"><a class="nav-list-link" href="#">Home</a></li>
+                <li class="nav-list-item"><a class="nav-list-link" href="#">Categories</a></li>
+                <li class="nav-list-item"><a class="nav-list-link" href="#">My Collections</a></li>
+                <li class="nav-list-item"><a class="nav-list-link" href="#">Blog</a></li>
             </ul>
         </nav>
-        <ul>
-            <li><button>Login</button></li>
-            <li><button>Sign Up</button></li>
+        <ul class="auth-list">
+            <li class="auth-list-item"><button class="auth-list-button">Login</button></li>
+            <li class="auth-list-item"><button class="auth-list-button">Sign Up</button></li>
         </ul>
     </header>
 
     <!-- hero -->
-    <section>
-        <h1>Awesome tools for
-            Designer & Developer<span>.</span></h1>
-        <p>Antool is a web collection of information on paid or free Design and Development tools</p>
-        <form>
-            <input type="text" placeholder="find more than 430+ tools...">
-            <button type="submit">Search</button>
+    <section class="hero">
+        <h1 class="hero-title">Awesome tools for
+            Designer & Developer<span class="hero-title-accent">.</span></h1>
+        <p class="hero-text">Antool is a web collection of information on paid or free Design and Development tools</p>
+        <form class="hero-form">
+            <input type="text" placeholder="find more than 430+ tools..." class="hero-form-input">
+            <button type="submit" class="hero-form-button">Search</button>
         </form>
-        <ul>
-            <li><a href="https://facebook.com" target="_blank"><img src="./img/img_2.png" alt="facebook"></a></li>
-            <li><a href="https://instagram.com" target="_blank"><img src="./img/img_3.png" alt="instagram"></a></li>
-            <li><a href="https://twitter.com" target="_blank"><img src="./img/img_4.png" alt="twitter"></a></li>
+        <ul class="social-list">
+            <li class="social-list-item"><a class="social-list-link" href="https://facebook.com" target="_blank"><img class="social-list-img" src="./img/img_2.png" alt="facebook"></a></li>
+            <li class="social-list-item"><a class="social-list-link" href="https://instagram.com" target="_blank"><img class="social-list-img" src="./img/img_3.png" alt="instagram"></a></li>
+            <li class="social-list-item"><a class="social-list-link" href="https://twitter.com" target="_blank"><img class="social-list-img" src="./img/img_4.png" alt="twitter"></a></li>
         </ul>
     </section>
 
     <!-- popular -->
-    <section>
-        <h2>Most Popular Tools</h2>
-        <p>Tools for the best Designers and Developers
+    <section class="popular">
+        <h2 class="popular-title">Most Popular Tools</h2>
+        <p class="popular-text">Tools for the best Designers and Developers
             most popularly used in the world</p>
-        <ul>
-            <li>
-                <div>
-                    <img src="./img/img_5.png" alt="figma logo">
-                    <h3>FIGMA</h3>
-                    <h4>Free</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <ul>
-                        <li><img src="./img/img_6.png" alt="favourite"></li>
-                        <li><img src="./img/img_7.png" alt="save"></li>
-                    </ul>
-                    <button>Visit</button>
-                </div>
+        <ul class="popular-list">
+            <li class="popular-list-item">
+                <img src="./img/img_5.png" alt="figma logo" class="popular-list-img">
+                <h3 class="popular-list-title">FIGMA</h3>
+                <h4 class="popular-list-pricing">Free</h4>
+                <p class="popular-list-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <ul class="popular-list-action-list">
+                    <li class="popular-list-action-list-item"><img class="popular-list-action-list-img" src="./img/img_6.png" alt="favourite"></li>
+                    <li class="popular-list-action-list-item"><img class="popular-list-action-list-img" src="./img/img_7.png" alt="save"></li>
+                </ul>
+                <button class="popular-list-button">Visit</button>
             </li>
-            <li>
-                <div>
-                    <img src="./img/img_8.png" alt="sketch logo">
-                    <h3>Sketch</h3>
-                    <h4>Trial & Paid</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <ul>
-                        <li><img src="./img/img_6.png" alt="favourite"></li>
-                        <li><img src="./img/img_7.png" alt="save"></li>
-                    </ul>
-                    <button>Visit</button>
-                </div>
+            <li class="popular-list-item">
+                <img src="./img/img_8.png" alt="sketch logo" class="popular-list-img">
+                <h3 class="popular-list-title">Sketch</h3>
+                <h4 class="popular-list-pricing">Trial & Paid</h4>
+                <p class="popular-list-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <ul class="popular-list-action-list">
+                    <li class="popular-list-action-list-item"><img class="popular-list-action-list-img" src="./img/img_6.png" alt="favourite"></li>
+                    <li class="popular-list-action-list-item"><img class="popular-list-action-list-img" src="./img/img_7.png" alt="save"></li>
+                </ul>
+                <button class="popular-list-button">Visit</button>
             </li>
-            <li>
-                <div>
-                    <img src="./img/img_9.png" alt="vscode logo">
-                    <h3>Visual Studio Code</h3>
-                    <h4>Free</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <ul>
-                        <li><img src="./img/img_6.png" alt="favourite"></li>
-                        <li><img src="./img/img_7.png" alt="save"></li>
-                    </ul>
-                    <button>Visit</button>
-                </div>
+            <li class="popular-list-item">
+                <img src="./img/img_9.png" alt="vscode logo" class="popular-list-img">
+                <h3 class="popular-list-title">Visual Studio Code</h3>
+                <h4 class="popular-list-pricing">Free</h4>
+                <p class="popular-list-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <ul class="popular-list-action-list">
+                    <li class="popular-list-action-list-item"><img class="popular-list-action-list-img" src="./img/img_6.png" alt="favourite"></li>
+                    <li class="popular-list-action-list-item"><img class="popular-list-action-list-img" src="./img/img_7.png" alt="save"></li>
+                </ul>
+                <button class="popular-list-button">Visit</button>
             </li>
-            <li>
-                <div>
-                    <img src="./img/img_10.png" alt="notion logo">
-                    <h3>Notion</h3>
-                    <h4>Free & Paid</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <ul>
-                        <li><img src="./img/img_6.png" alt="favourite"></li>
-                        <li><img src="./img/img_7.png" alt="save"></li>
-                    </ul>
-                    <button>Visit</button>
-                </div>
+            <li class="popular-list-item">
+                <img src="./img/img_10.png" alt="notion logo" class="popular-list-img">
+                <h3 class="popular-list-title">Notion</h3>
+                <h4 class="popular-list-pricing">Free & Paid</h4>
+                <p class="popular-list-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <ul class="popular-list-action-list">
+                    <li class="popular-list-action-list-item"><img class="popular-list-action-list-img" src="./img/img_6.png" alt="favourite"></li>
+                    <li class="popular-list-action-list-item"><img class="popular-list-action-list-img" src="./img/img_7.png" alt="save"></li>
+                </ul>
+                <button class="popular-list-button">Visit</button>
             </li>
-            <li>
-                <div>
-                    <img src="./img/img_11.png" alt="slack logo">
-                    <h3>Slack</h3>
-                    <h4>Free & Paid</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <ul>
-                        <li><img src="./img/img_6.png" alt="favourite"></li>
-                        <li><img src="./img/img_7.png" alt="save"></li>
-                    </ul>
-                    <button>Visit</button>
-                </div>
+            <li class="popular-list-item">
+                <img src="./img/img_11.png" alt="slack logo" class="popular-list-img">
+                <h3 class="popular-list-title">Slack</h3>
+                <h4 class="popular-list-pricing">Free & Paid</h4>
+                <p class="popular-list-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <ul class="popular-list-action-list">
+                    <li class="popular-list-action-list-item"><img class="popular-list-action-list-img" src="./img/img_6.png" alt="favourite"></li>
+                    <li class="popular-list-action-list-item"><img class="popular-list-action-list-img" src="./img/img_7.png" alt="save"></li>
+                </ul>
+                <button class="popular-list-button">Visit</button>
             </li>
-            <li>
-                <div>
-                    <img src="./img/img_12.png" alt="invision logo">
-                    <h3>Invision</h3>
-                    <h4>Free & Paid</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <ul>
-                        <li><img src="./img/img_6.png" alt="favourite"></li>
-                        <li><img src="./img/img_7.png" alt="save"></li>
-                    </ul>
-                    <button>Visit</button>
-                </div>
+            <li class="popular-list-item">
+                <img src="./img/img_12.png" alt="invision logo" class="popular-list-img">
+                <h3 class="popular-list-title">Invision</h3>
+                <h4 class="popular-list-pricing">Free & Paid</h4>
+                <p class="popular-list-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <ul class="popular-list-action-list">
+                    <li class="popular-list-action-list-item"><img class="popular-list-action-list-img" src="./img/img_6.png" alt="favourite"></li>
+                    <li class="popular-list-action-list-item"><img class="popular-list-action-list-img" src="./img/img_7.png" alt="save"></li>
+                </ul>
+                <button class="popular-list-button">Visit</button>
             </li>
         </ul>
-        <button>Load more</button>
+        <button class="popular-load-btn">Load more</button>
     </section>
 
     <!-- brand -->
-    <section>
-        <h2>Trusted more than 150+ brand</h2>
-        <ul>
-            <li><img src="./img/img_13.png" alt="microsoft logo"></li>
-            <li><img src="./img/img_14.png" alt="google logo"></li>
-            <li><img src="./img/img_15.png" alt="slack logo"></li>
-            <li><img src="./img/img_16.png" alt="wordpress logo"></li>
+    <section class="brand">
+        <h2 class="brand-title">Trusted more than 150+ brand</h2>
+        <ul class="brand-list">
+            <li class="brand-list-item"><img class="brand-list-img" src="./img/img_13.png" alt="microsoft logo"></li>
+            <li class="brand-list-item"><img class="brand-list-img" src="./img/img_14.png" alt="google logo"></li>
+            <li class="brand-list-item"><img class="brand-list-img" src="./img/img_15.png" alt="slack logo"></li>
+            <li class="brand-list-item"><img class="brand-list-img" src="./img/img_16.png" alt="wordpress logo"></li>
         </ul>
     </section>
 
     <!-- newcomer -->
-    <section>
-        <div>
-            <h3>Newcomer Tools</h3>
-            <p>Wow! see the latest update of the most recommended tools from reliable designers and developers</p>
-            <button>Explore more</button>
-        </div>
-        <div>
-            <div>
-                <img src="./img/img_17.png" alt="zeplin logo">
-                <h3>Zeplin</h3>
-                <h4>Free & Paid</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <ul>
-                    <li><img src="./img/img_6.png" alt="favourite"></li>
-                    <li><img src="./img/img_7.png" alt="save"></li>
+    <section class="newcomer">
+        <h3 class="newcomer-title">Newcomer Tools</h3>
+        <p class="newcomer-text">Wow! see the latest update of the most recommended tools from reliable designers and developers</p>
+        <button class="newcomer-btn">Explore more</button>
+        <ul class="newcomer-list">
+            <li class="newcomer-list-item">
+                <img src="./img/img_17.png" alt="zeplin logo" class="newcomer-list-img">
+                <h3 class="newcomer-list-title">Zeplin</h3>
+                <h4 class="newcomer-list-pricing">Free & Paid</h4>
+                <p class="newcomer-list-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <ul class="newcomer-list-action-list">
+                    <li class="newcomer-list-action-list-item"><img class="newcomer-list-action-list-img" src="./img/img_6.png" alt="favourite"></li>
+                    <li class="newcomer-list-action-list-item"><img class="newcomer-list-action-list-img" src="./img/img_7.png" alt="save"></li>
                 </ul>
-                <button>Visit</button>
-                <img src="./img/img_18.png" alt="toolbox logo">
-                <h3>Toolbox</h3>
-                <h4>Free</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <ul>
-                    <li><img src="./img/img_6.png" alt="favourite"></li>
-                    <li><img src="./img/img_7.png" alt="save"></li>
+                <button class="newcomer-list-btn">Visit</button>
+            </li>
+            <li class="newcomer-list-item">
+                <img src="./img/img_18.png" alt="toolbox logo" class="newcomer-list-img">
+                <h3 class="newcomer-list-title">Toolbox</h3>
+                <h4 class="newcomer-list-pricing">Free</h4>
+                <p class="newcomer-list-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <ul class="newcomer-list-action-list">
+                    <li class="newcomer-list-action-list-item"><img class="newcomer-list-action-list-img" src="./img/img_6.png" alt="favourite"></li>
+                    <li class="newcomer-list-action-list-item"><img class="newcomer-list-action-list-img" src="./img/img_7.png" alt="save"></li>
                 </ul>
-                <button>Visit</button>
-                <img src="./img/img_19.png" alt="phpstorm logo">
-                <h3>PHPStorm</h3>
-                <h4>Free</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <ul>
-                    <li><img src="./img/img_6.png" alt="favourite"></li>
-                    <li><img src="./img/img_7.png" alt="save"></li>
+                <button class="newcomer-list-btn">Visit</button>
+            </li>
+            <li class="newcomer-list-item">
+                <img src="./img/img_19.png" alt="phpstorm logo" class="newcomer-list-img">
+                <h3 class="newcomer-list-title">PHPStorm</h3>
+                <h4 class="newcomer-list-pricing">Free</h4>
+                <p class="newcomer-list-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <ul class="newcomer-list-action-list">
+                    <li class="newcomer-list-action-list-item"><img class="newcomer-list-action-list-img" src="./img/img_6.png" alt="favourite"></li>
+                    <li class="newcomer-list-action-list-item"><img class="newcomer-list-action-list-img" src="./img/img_7.png" alt="save"></li>
                 </ul>
-                <button>Visit</button>
-                <img src="./img/img_20.png" alt="procreate logo">
-                <h3>Procreate</h3>
-                <h4>Paid</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <ul>
-                    <li><img src="./img/img_6.png" alt="favourite"></li>
-                    <li><img src="./img/img_7.png" alt="save"></li>
+                <button class="newcomer-list-btn">Visit</button>
+            </li>
+            <li class="newcomer-list-item">
+                <img src="./img/img_20.png" alt="procreate logo" class="newcomer-list-img">
+                <h3 class="newcomer-list-title">Procreate</h3>
+                <h4 class="newcomer-list-pricing">Paid</h4>
+                <p class="newcomer-list-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <ul class="newcomer-list-action-list">
+                    <li class="newcomer-list-action-list-item"><img class="newcomer-list-action-list-img" src="./img/img_6.png" alt="favourite"></li>
+                    <li class="newcomer-list-action-list-item"><img class="newcomer-list-action-list-img" src="./img/img_7.png" alt="save"></li>
                 </ul>
-                <button>Visit</button>
-            </div>
-        </div>
+                <button class="newcomer-list-btn">Visit</button>
+            </li>
+        </ul>
     </section>
 
     <!-- testimonial -->
-    <section>
+    <section class="testimonial">
 
     </section>
 
     <!-- join -->
-    <section>
-        <h2>Become a contributor?</h2>
-        <p>Join us and get tips & tricks to become a great Designer and Developer</p>
-        <form>
-            <input type="email" placeholder="Enter your email...">
-            <button type="submit">Join Us</button>
+    <section class="join">
+        <h2 class="join-title">Become a contributor?</h2>
+        <p class="join-text">Join us and get tips & tricks to become a great Designer and Developer</p>
+        <form class="join-form">
+            <input type="email" placeholder="Enter your email..." class="join-form-input">
+            <button type="submit" class="join-form-btn">Join Us</button>
         </form>
     </section>
-    <footer>
-        <div>
-            <img src="./img/img_21.png" alt="antools logo">
-            <h5>antools.</h5>
-            <h5>Copyright 2021. Antools</h5>
-            <p>Antool is a web collection of information on paid or free Design and Development tools</p>
-        </div>
-        <address>
-            <h5>Contact Us</h5>
-            <a href="tel:+621987463">+621987463</a>
-            <p>M Building, No.10 A</p>
-            <a href="mailto:antools@awesome.com">antools@awesome.com</a>
+    <footer class="footer">
+        <ul class="footer-information-list">
+            <li class="footer-information-list-item"><img src="./img/img_21.png" alt="antools logo" class="footer-information-list-img"></li>
+            <li class="footer-information-list-item"><h5 class="footer-information-list-logo">antools.</h5></li>
+            <li class="footer-information-list-item"><h5 class="footer-information-list-copyright">Copyright 2021. Antools</h5></li>
+            <li class="footer-information-list-item"><p class="footer-information-list-text">Antool is a web collection of information on paid or free Design and Development tools</p></li>
+        </ul>
+        <address class="footer-address">
+            <ul class="footer-address-list">
+                <li class="footer-address-list-item"><h5 class="footer-address-list-title">Contact Us</h5></li>
+                <li class="footer-address-list-item"><a href="tel:+621987463" class="footer-address-list-link">+621987463</a></li>
+                <li class="footer-address-list-item"><p class="footer-address-list-text">M Building, No.10 A</p></li>
+                <li class="footer-address-list-item"><a href="mailto:antools@awesome.com" class="footer-address-list-link">antools@awesome.com</a></li>
+            </ul>
         </address>
-        <div>
-            <h5>Categories</h5>
-            <a href="#">Design</a>
-            <a href="#">Development</a>
-        </div>
-        <div>
-            <h5>Company Info</h5>
-            <a href="#">About Us</a>
-            <a href="#">Our Partners</a>
-            <a href="#">Blog</a>
-        </div>
+        <ul class="footer-categories-list">
+            <li class="footer-categories-list-item"><h5 class="footer-categories-list-title">Categories</h5></li>
+            <li class="footer-categories-list-item"><a href="#" class="footer-categories-list-link">Design</a></li>
+            <li class="footer-categories-list-item"><a href="#" class="footer-categories-list-link">Development</a></li>
+        </ul>
+        <ul class="footer-info-list">
+            <li class="footer-info-list-item"><h5>Company Info</h5></li>
+            <li class="footer-info-list-item"><a href="#" class="footer-info-list-link">About Us</a></li>
+            <li class="footer-info-list-item"><a href="#" class="footer-info-list-link">Our Partners</a></li>
+            <li class="footer-info-list-item"><a href="#" class="footer-info-list-link">Blog</a></li>
+        </ul>
     </footer>
 </body>
 </html>
