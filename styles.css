@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-    width: 1224px;
+    max-width: 1224px;
     margin: 0 auto;
 }
 
@@ -158,12 +158,20 @@ body {
     height: 58px;
 }
 
+.popular-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .popular-title {
     font-size: 48px;
     font-weight: 500;
     line-height: 62.4px;
     text-align: center;
     color: rgba(255, 255, 255, 90%);
+    margin-top: 200px;
+    margin-bottom: 25px;
 }
 
 .popular-text {
@@ -172,12 +180,37 @@ body {
     line-height: 30px;
     text-align: center;
     color: rgba(255, 255, 255, 55%);
+    margin-bottom: 90px;
+}
+
+.popular-list {
+    display: flex;
+    column-gap: 24px;
+    row-gap: 100px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 
 .popular-list-item {
-    width: 392px;
-    height: 294px;
+    padding: 34px 33px; 
+    max-width: 392px;
+    max-height: 294px;
     border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.popular-list-item-first-container {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.popular-list-img {
+    height: 64px;
 }
 
 .popular-list-title {
@@ -193,7 +226,7 @@ body {
     font-weight: 400;
     line-height: 27px;
     text-align: left;
-    color: rgba(255, 165, 55, 55%);
+    color: rgba(255, 165, 55, 55%); 
 }
 
 .popular-list-text {
@@ -204,28 +237,44 @@ body {
     color: rgba(255, 255, 255, 55%);
 }
 
-.popular-list-btn {
+.popular-list-item-third-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 124px;
+}
+
+.popular-list-action-list {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.popular-list-link {
     font-family: inherit;
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
-    text-align: center;
     color: rgba(255, 255, 255, 55%);
     background-color: transparent;
     width: 106px;
     height: 42px;
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .popular-list-item:nth-child(2) {
     background-color: rgba(40, 48, 54, 1);
-    .popular-list-btn {
+    .popular-list-link {
         background-color: #FF6E30;
         color: #ffffff;
     }
     .popular-list-text {
         color: rgba(255, 255, 255, 78%);
     }
+    margin-top: -20px;
 }
 
 .popular-load-btn {
