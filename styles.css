@@ -21,6 +21,7 @@ body {
     display: flex;
     align-items: center;
     gap: 21px;
+    margin-right: auto;
 }
 
 .company-logo-text {
@@ -31,16 +32,12 @@ body {
     color: rgba(255, 255, 255, 90%);
 }
 
-.nav {
-    padding-left: 257px;
-    padding-right: 193px;
-}
-
 .nav-list {
     display: flex;
     align-items: center;
     gap: 40px;
     justify-content: space-between;
+    width: 431px;
 }
 
 .nav-list-link {
@@ -49,11 +46,22 @@ body {
     line-height: 24px;
     text-align: left;
     color: rgba(255, 255, 255, 55%);
+    display: flex;
+    align-items: center;
+}
+
+.nav-list-link:hover::after {
+    content: "";
+    background-image: url(./img/img_23.png);
+    display: inline-block;
+    width: 18px;
+    height: 18px;
 }
 
 .auth-list {
     display: flex;
     align-items: center;
+    margin-left: auto;
 }
 
 .auth-list-login-btn {
@@ -84,6 +92,13 @@ body {
     border-radius: 8px;
 }
 
+.hero {
+    background-image: url(./img/img_22.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding-top: 104px;
+}
+
 .hero-title {
     font-size: 50px;
     font-weight: 500;
@@ -91,7 +106,6 @@ body {
     text-align: left;
     color: rgba(255, 255, 255, 90%);
     margin-bottom: 30px;
-    margin-top: 104px;
 }
 
 .hero-title-accent {
@@ -285,11 +299,22 @@ body {
     background-color: rgba(30, 37, 43, 1);
     color: #FF6E30;
     border: 1px solid rgba(255, 255, 255, 10%);
+    margin-bottom: 200px;
+}
+
+.brand {
+    background-image: url(./img/img_24.png);
+    padding: 55px 83px 59px 83px;
+    background-repeat: no-repeat;
+    background-position: top center;
 }
 
 .brand-container {
-    background-color: #283036;
     border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 200px;
 }   
 
 .brand-title {
@@ -299,6 +324,20 @@ body {
     text-align: left;
     color: rgba(255, 255, 255, 80%);
     text-align: center;
+    margin-bottom: 55px;
+}
+
+.brand-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.newcomer-container {
+    display: flex;
+}
+
+.newcomer-first-container {
+    margin-right: 180px;
 }
 
 .newcomer-title {
@@ -307,6 +346,7 @@ body {
     line-height: 62.4px;
     text-align: left;
     color: rgba(255, 255, 255, 90%);
+    margin-bottom: 30px;
 }
 
 .newcomer-text {
@@ -315,6 +355,7 @@ body {
     line-height: 30px;
     text-align: left;
     color: rgba(255, 255, 255, 55%);
+    margin-bottom: 60px;
 }
 
 .newcomer-btn {
@@ -330,16 +371,36 @@ body {
     background-color: #FF6E30;
 }
 
+.newcomer-list {
+    display: flex;
+    row-gap: 50px;
+    column-gap: 24px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
 .newcomer-list-item {
-    width: 288px;
-    height: 284px;
+    padding: 34px 33px; 
+    max-width: 288px;
+    max-height: 284px;
     border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.newcomer-list-item-first-container {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
 }
 
 .newcomer-list-item:nth-child(2) {
     background-color: #283036;
 
-    .popular-list-btn {
+    .newcomer-list-link {
         background-color: #FF6E30;
         color: #ffffff;
     }
@@ -373,7 +434,20 @@ body {
     color: rgba(255, 255, 255, 55%);
 }
 
-.newcomer-list-btn {
+.newcomer-list-item-third-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 43px;
+}
+
+.newcomer-list-action-list {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.newcomer-list-link {
     font-family: inherit;
     font-size: 16px;
     font-weight: 600;
@@ -381,6 +455,12 @@ body {
     text-align: center;
     color: rgba(255, 255, 255, 55%);
     background-color: transparent;
+    width: 106px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
 }
 
 .join-title {
