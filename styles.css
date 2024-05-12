@@ -72,10 +72,9 @@ body {
     line-height: 24px;
     text-align: left;
     color: rgba(255, 255, 255, 78%);
-    width: 118px;
-    height: 48px;
     text-align: center;
     border-radius: 8px;
+    padding: 12px 28px;
 }
 
 .auth-list-signup-btn {
@@ -86,10 +85,9 @@ body {
     text-align: left;
     background-color: #FF6E30;
     color: #FDF5FF;
-    width: 118px;
-    height: 48px;
     text-align: center;
     border-radius: 8px;
+    padding: 12px 28px;
 }
 
 .hero {
@@ -210,17 +208,12 @@ body {
     max-width: 392px;
     max-height: 294px;
     border-radius: 15px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    row-gap: 30px;
 }
 
 .popular-list-item-first-container {
     display: flex;
     gap: 30px;
-    justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 .popular-list-img {
@@ -249,6 +242,7 @@ body {
     line-height: 30px;
     text-align: left;
     color: rgba(255, 255, 255, 55%);
+    margin-bottom: 30px;
 }
 
 .popular-list-item-third-container {
@@ -384,17 +378,12 @@ body {
     max-width: 288px;
     max-height: 284px;
     border-radius: 15px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    row-gap: 30px;
 }
 
 .newcomer-list-item-first-container {
     display: flex;
     gap: 30px;
-    justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 .newcomer-list-item:nth-child(2) {
@@ -432,6 +421,7 @@ body {
     line-height: 30px;
     text-align: left;
     color: rgba(255, 255, 255, 55%);
+    margin-bottom: 30px;
 }
 
 .newcomer-list-item-third-container {
@@ -463,20 +453,33 @@ body {
     border-radius: 8px;
 }
 
+.join {
+    padding: 250px 0px 240px 0px;
+}
+
+.join-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .join-title {
     font-size: 48px;
     font-weight: 500;
     line-height: 62.4px;
     text-align: center;
     color: rgba(255, 255, 255, 90%);
+    margin-bottom: 25px;
 }
 
 .join-text {
     font-size: 18px;
     font-weight: 500;
-    line-height: 62.4px;
+    line-height: 30px;
     text-align: center;
     color: rgba(255, 255, 255, 55%);
+    max-width: 427px;
+    margin: 0 auto;
 }
 
 .join-form {
@@ -485,6 +488,13 @@ body {
     background-color: #283036;
     border-radius: 15px;
     border: 1.5px solid rgba(255, 255, 255, 10%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 12px 21px 24px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 240px;
 }
 
 .join-form-input {
@@ -495,6 +505,8 @@ body {
     text-align: left;
     color: rgba(255, 255, 255, 38%);
     background-color: transparent;
+    border: 0;
+    outline: none;
 }
 
 .join-form-btn {
@@ -510,7 +522,28 @@ body {
     background-color: #FF6E30;
 }
 
+.footer {
+    border-top: 0.5px solid rgba(255, 255, 255, 15%);
+}
+
+.footer-container {
+    display: flex;
+}
+
+.footer-information-list {
+    max-width: 260px;
+    margin-top: 70px;
+    margin-right: 156px;
+}
+
 .footer-information-list-company-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.footer-information-list-company-logo-text {
     font-size: 22px;
     font-weight: 600;
     line-height: 33px;
@@ -523,7 +556,8 @@ body {
     font-weight: 500;
     line-height: 24px;
     text-align: left;
-    color: rgba(255, 255, 255, 90%);       
+    color: rgba(255, 255, 255, 90%);    
+    margin-bottom: 21px;   
 }
 
 .footer-information-list-text {
@@ -532,6 +566,17 @@ body {
     line-height: 25px;
     text-align: left;
     color: rgba(255, 255, 255, 55%);
+    margin-bottom: 96px;
+}
+
+.footer-address-list {
+    margin-bottom: 98px;
+    margin-top: 70px;
+    margin-right: 115px;
+}
+
+.footer-address-list-item {
+    margin-bottom: 10px;
 }
 
 .footer-address-list-title {
@@ -540,6 +585,7 @@ body {
     line-height: 30px;
     text-align: left;
     color: rgba(255, 255, 255, 90%);
+    margin-bottom: 20px;
 }
 
 .footer-address-list-link {
@@ -558,12 +604,23 @@ body {
     color: rgba(255, 255, 255, 55%);
 }
 
+.footer-categories-list {
+    margin-bottom: 98px;
+    margin-top: 70px;
+    margin-right: 115px;
+}
+
+.footer-categories-list-item {
+    margin-bottom: 10px;
+}
+
 .footer-categories-list-title {
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
     text-align: left;
     color: rgba(255, 255, 255, 90%);
+    margin-bottom: 20px;
 }
 
 .footer-categories-list-link {
@@ -574,12 +631,22 @@ body {
     color: rgba(255, 255, 255, 55%);
 }
 
+.footer-info-list {
+    margin-bottom: 98px;
+    margin-top: 70px;
+}
+
+.footer-info-list-item {
+    margin-bottom: 10px;
+}
+
 .footer-info-list-title {
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
     text-align: left;
     color: rgba(255, 255, 255, 90%);
+    margin-bottom: 20px;
 }
 
 .footer-info-list-link {
