@@ -460,7 +460,7 @@ body {
     margin-bottom: 100px;
 }
 
-.sign-before {
+.testimonial-left-btn {
     padding: 38px 34px;
     background-image: url(./img/img_28.png);
     background-repeat: no-repeat;
@@ -547,7 +547,7 @@ body {
     cursor: pointer;
 }
 
-.sign-after {
+.testimonial-right-btn {
     padding: 38px 34px;
     background-image: url(./img/img_29.png);
     background-repeat: no-repeat;
